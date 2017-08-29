@@ -1,0 +1,27 @@
+#!/usr/bin/env node
+
+// Read config.json in from stdin and output tree to stdout
+// io cribbed from:
+// https://gist.github.com/kristopherjohnson/5065599
+var stdin = process.stdin,
+    stdout = process.stdout,
+    inputChunks = [];
+
+stdin.resume();
+stdin.setEncoding('utf8');
+
+stdin.on('data', function (chunk) {
+  inputChunks.push(chunk);
+});
+
+stdin.on('end', function () {
+  let input = inputChunks.join(''),
+      config = JSON.parse(input);
+
+  return stdout.write(require('..')(config));
+});
+
+// emacs stuff
+// Local Variables:
+// mode: javascript
+// End:

@@ -1,0 +1,117 @@
+
+core
+----
+├── hello-world [1]
+|
+├── two-fer [1]
+|   └── leap [1]
+|
+├── hamming [1]
+|   ├── nucleotide-count [2]
+|   |   ├── rna-transcription [2]
+|   |   └── protein-translation [3]
+|
+├── isogram [2]
+|   ├── pangram [2]
+|   ├── acronym [3]
+|   └── anagram [3]
+|
+├── raindrops [1]
+|
+├── scrabble-score [1]
+|   └── etl [1]
+|
+├── difference-of-squares [2]
+|   ├── largest-series-product [3]
+|   ├── nth-prime [3]
+|   ├── sum-of-multiples [5]
+|   └── pythagorean-triplet [5]
+|
+├── grains [2]
+|   ├── allergies [4]
+|   ├── secret-handshake [5]
+|   └── variable-length-quantity [5]
+|
+├── clock [3]
+|   ├── prime-factors [3]
+|   ├── perfect-numbers [4]
+|   |   └── palindrome-products [6]
+|
+├── parallel-letter-frequency [3]
+|
+├── tree-building [3]
+|   └── pov [7]
+|
+├── robot-name [3]
+|
+├── twelve-days [4]
+|   ├── beer-song [3]
+|   ├── house [4]
+|   └── food-chain [4]
+|
+├── bank-account [4]
+|
+├── error-handling [5]
+|
+└── paasio [5]
+
+bonus
+-----
+
+├── gigasecond [1]
+|
+├── bob [2]
+|
+├── triangle [3]
+|   ├── wordy [3]
+|   |   └── all-your-base [3]
+|
+├── series [3]
+|   ├── pascals-triangle [4]
+|   ├── diamond [4]
+|   └── ledger [4]
+|
+├── queen-attack [5]
+|   ├── bowling [5]
+|   |   └── connect [9]
+|   ├── robot-simulator [6]
+|   └── react [9]
+|
+├── luhn [2]
+|   ├── crypto-square [3]
+|   ├── atbash-cipher [3]
+|   ├── simple-cipher [3]
+|   └── diffie-hellman [5]
+|
+├── word-count [3]
+|   ├── grade-school [5]
+|   |   └── circular-buffer [5]
+|
+├── roman-numerals [2]
+|   ├── meetup [3]
+|   |   └── say [7]
+|   └── transpose [5]
+|
+├── phone-number [3]
+|   └── pig-latin [4]
+|
+├── strain [2]
+|   ├── accumulate [1]
+|   ├── sieve [3]
+|   |   └── minesweeper [5]
+|   └── custom-set [4]
+|
+├── matrix [4]
+|   ├── word-search [4]
+|   └── saddle-points [5]
+|
+├── binary-search [5]
+|   └── binary-search-tree [5]
+|
+├── kindergarten-garden [3]
+|   ├── tournament [3]
+|   |   ├── poker [5]
+|   |   |   ├── bracket-push [7]
+|   |   |   |   └── forth [8]
+|   |   |   └── ocr-numbers [7]
+|   └── change [5]
