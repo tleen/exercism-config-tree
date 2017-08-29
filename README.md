@@ -3,7 +3,7 @@
 Output Exercism config file as a text tree.
 
 ```sh
-> GET https://raw.githubusercontent.com/exercism/lua/master/config.json | exercism-config-tree
+GET https://raw.githubusercontent.com/exercism/lua/master/config.json | exercism-config-tree
 ```
 
 ```text
@@ -38,14 +38,15 @@ bonus
 ## Install
 
 ```sh
-> npm install -g exercism-config-tree
+npm install -g exercism-config-tree
 ```
 
 # Run
 
 ```sh
-> exercism-config-tree < <path-to-your/>config.json
-
+exercism-config-tree < <path-to-your/>config.json
+```
+```text
 core
 ----
 ├── hello-world [1]
